@@ -119,7 +119,10 @@ function MyProfileScreen({ navigation }) {
                 onChange={(value) => setDateBy(value)}
                 format="yyyy-mm-dd"
                 endYear={2030}
-                startYear={2020}
+                startYear={2022}
+                height={100}
+                fadeColor="#F2F2F2"
+                fontSize={16}
             />
             {/* Pet dropdown menu */}
             <TextInput
